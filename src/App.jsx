@@ -1,5 +1,6 @@
 import Footer from "./components/Footer";
 import MusicPlayer from "./MusicPlayer";
+import './output.css';
 
 function App() {
   return (
