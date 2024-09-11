@@ -6,6 +6,11 @@ export default {
   ],
   theme: {
     extend: {
+      colors: {
+        primary: '#EFE7BC',
+        secondary: '#E7F2F8',
+        tertiary: '#FFA350',
+      },
       width: {
         "image-w": '400px'
       },
