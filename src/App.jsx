@@ -4,7 +4,7 @@ import './output.css';
 
 function App() {
   return (
-    <div className="h-full flex flex-col justify-between p-8 min-h-screen">
+    <div className="h-full bg-primary flex flex-col justify-between p-8 min-h-screen">
       <MusicPlayer />
       <Footer />
     </div>

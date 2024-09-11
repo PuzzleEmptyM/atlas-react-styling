@@ -6,7 +6,7 @@ import SongTitle from './SongTitle';
 
 const CurrentlyPlaying = () => {
   return (
-    <div className="flex flex-col justify-center p-4">
+    <div className="flex  flex-col justify-center p-4">
       <CoverArt />
       <div className="mt-4">
         <SongTitle title="Painted in Blue" artist="Soul Canvas" />

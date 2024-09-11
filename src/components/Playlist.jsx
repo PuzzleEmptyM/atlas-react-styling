@@ -6,7 +6,7 @@ const Playlist = () => {
     <div className="p-4">
       <h3 className="text-lg font-bold mb-4">Playlist</h3>
       <div>
-        <PlayListItem title='Painted in Blue' artist='Soul Canvas' duration='5:55' className="bg-slate-100 rounded" />
+        <PlayListItem title='Painted in Blue' artist='Soul Canvas' duration='5:55' className="bg-tertiary rounded" />
         <PlayListItem title='Tidal Drift' artist='Echoes of the Sea' duration='8:02' />
         <PlayListItem title='Fading Shadows' artist='The Emberlight' duration='3:01' />
         <PlayListItem title='Cosmic Drift' artist='Solar Flare' duration='5:01' />

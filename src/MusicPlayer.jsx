@@ -3,7 +3,7 @@ import Playlist from "./components/Playlist";
 
 export default function MusicPlayer() {
   return (
-    <div className="flex self-center mt-12 flex-col md:flex-row shadow-2xl">
+    <div className="flex bg-secondary self-center mt-12 flex-col md:flex-row shadow-2xl">
       <div className="p-3 flex-1">
         <CurrentlyPlaying />
       </div>
