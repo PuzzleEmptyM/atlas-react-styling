@@ -7,8 +7,10 @@ export default {
   theme: {
     extend: {
       width: {
+        "image-w": '400px'
       },
       height: {
+        "image-h": '400px'
       },
     },
   },
