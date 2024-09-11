@@ -1,13 +1,17 @@
-import React from 'react';
+import React from 'react'
 
-const PlayListItem = ({ title, genre, length }) => {
+const PlayListItem = ({ title, artist, duration, className }) => {
   return (
-    <div className="p-4 border-b border-gray-300 w-64 text-center">
-      <h3 className="text-lg font-semibold">{title}</h3>
-      <p className="text-sm text-gray-500">{genre}</p>
-      <p className="text-sm text-gray-500">{length}</p>
+    <div className={`w-full max-w-lg mt-2.5 ${className}`}>
+      <div className="flex justify-between p-2.5">
+        <div className="text-left">
+          <p className="text-base font-bold">{title}</p>
+          <p className="text-gray-600 font-medium">{artist}</p>
+        </div>
+        <p className="text-gray-400 font-medium text-lg mt-2">{duration}</p>
+      </div>
     </div>
-  );
-};
+  )
+}
 
-export default PlayListItem;
+export default PlayListItem
